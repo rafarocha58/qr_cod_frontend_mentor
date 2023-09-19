@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+        <title>Frontend Mentor | QR code component</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Krona+One&family=Montserrat:wght@400;600&family=Outfit&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                height: 100vh;
+                background-color: lightgray;
+            }
+            .container{
+                height: 97vh;
+                display: flex;
+                justify-content: center;
+                align-items: center
+            }
+            .conteudo{
+                height: 650px;
+                width: 400px;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border-radius: 20px;
+            }
+            .imagem_qr{
+                margin-block-start: 20px;
+                height: 360px;
+                width: 360px;
+                border-radius: 20px;
+            }
+            .titulo{
+                font-size: 32px;
+                font-family: 'Outfit', sans-serif;
+                text-align: center;
+                margin-top: 30px;
+            }
+            .texto{
+                font-size: 23px;
+                font-family: 'Outfit', sans-serif;
+                color: Lightgray;
+                text-align: center;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body> 
+        <main class="container">
+            <div class="conteudo">
+                <img class="imagem_qr" src="./images/image-qr-code.png" alt="imagem qrcode">
+                <h1 class="titulo">Improve your front-end skills by building projects</h1>
+                <p class="texto">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            </div>>
+        </main>>
+    </body>
+</html>
