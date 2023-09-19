@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Krona+One&family=Montserrat:wght@400;600&family=Outfit&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 95vh;
+    background-color: lightgray;
+}
+.container{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.conteudo{
+    height: 480px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.imagem_qr{
+    margin-block-start: 15px;
+    width: 270px;
+    border-radius: 20px;
+}
+.titulo{
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.texto{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: Lightgray;
+    text-align: center;
+    margin-top: 15px;
+}
